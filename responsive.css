@@ -201,5 +201,33 @@
     align-items: center;
     justify-content: center;
   }
+  .about_images{
+    margin: 20px 0;
+   
+    overflow: none;
+  
+  }
+  .images{
+    width: 160%;
+    height:160%;
+
+  }
+  .about1{
+    margin-left:-45%;
+  }
+  .about2{
+    margin-top: -22%;;
+    margin-left:-40%;
+  }
+.first_text{
+  
+  position: relative;
+  top:-400px;
+
+}
+.start_today{
+  position: relative;
+  top:-400px;
+}
 
 }
