@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-     .flex-container{
-        display:flex;
-        background-color: red;
-        flex-direction: row;
-        justify-content: flex-end;
-     }
-     .flex-container  div {
-  background-color:white;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .navigation-bar {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Initially hide the navigation off-screen */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease-in-out;
+  overflow-y: auto;
 }
-    </style>
+
+.responsive-nav__list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  list-style: none;
+}
+
+.menu-button,
+.close-button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Show navigation when it's open */
+.menu-open .navigation-bar {
+  left: 0;
+}
+
+/* Hide close button when the navigation is closed */
+.menu-open .close-button {
+  display: none;
+}
+
+  </style>
 </head>
 <body>
-    <div class="flex-container">
-        <div class="items">item1</div>
-        <div class="items">item1</div>
-        <div class="items">item1</div>
-        <div class="items">item1</div>
-        <div class="items">item1</div>
-    </div>
+  <button class="menu-button" onclick="toggleNav()">Menu</button>
+  <nav class="navigation-bar">
+    <button class="close-button" onclick="toggleNav()">Close</button>
+    <ul class="responsive-nav__list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <!-- Your page content here -->
+  </div>
+  <script>
+    function toggleNav() {
+  const navigation = document.querySelector('.navigation-bar');
+  const body = document.body;
+  
+  navigation.classList.toggle('menu-open');
+  body.classList.toggle('menu-open');
+}
+
+  </script>
 </body>
 </html>
