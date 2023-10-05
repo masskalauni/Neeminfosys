@@ -753,8 +753,10 @@ left:45%;
 }
 .icon_1{
   display: flex;
-  /* border:2px solid green; */
+  
   padding: 3px;
+  word-wrap: wrap;
+  width:65%;
 }
 .feature_text{
   position:relative;
@@ -796,6 +798,7 @@ left:45%;
  
 }
 .title_1{
+  
   position: relative;
   left:18%;margin-top:5px;
   font-weight: 400;
@@ -803,6 +806,8 @@ left:45%;
    line-height: 120%;
    top:25%;
    opacity: 70%;
+   width:40%;
+
 }
 .think-image{
   position: relative;
