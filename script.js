@@ -15,6 +15,43 @@ navClose.addEventListener("click", (event) => {
   navbar.classList.add("display-close");
 });
 
+// const header = document.querySelector(".header");
+// let prevScrollY = window.scrollY;
+
+// window.addEventListener("scroll", () => {
+//     const currentScrollY = window.scrollY;
+//     const isHomePage = window.location.hash === ".hero"; // Check if you are on the home page
+
+//     if (!isHomePage && currentScrollY > prevScrollY) {
+//         // Scrolling down and not on the home page, change the background color
+//         header.style.backgroundColor = "white"; /* Change to your desired color */
+//     } else {
+//         // Scrolling up or on the home page, keep the initial background color
+//         header.style.backgroundColor = "#fff2e1"; /* Initial background color */
+//     }
+
+//     prevScrollY = currentScrollY;
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+// window.addEventListener("scroll", () => {
+//     const header = document.querySelector(".header");
+//     if (window.scrollY > 50) { /* Adjust the value as needed to trigger the animation */
+//         header.style.top = "0";
+//     } else {
+//         header.style.top = "0"; /* Hide the navbar off-screen */
+//     }
+// });
 
 
 // const hamburgerDiv = document.getElementById("hamburgerDiv");

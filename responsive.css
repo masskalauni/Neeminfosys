@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1200px) {
   .container {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
   }
@@ -406,12 +406,87 @@ margin-bottom: 30px;
   margin-left: 25%;
 }
 .image-and-text{
-  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
 }
   .ture_or_false{
     width:90%;
   }
+ .management_tools{
+width: 90%;
+ }
+.gradebook_png{
+  width: 80%;
+  margin-top: 50px;
+}
+.management{
+  margin-top: 20px;
+}
+.see_more_feature_button{
+ visibility: hidden;
 
+}
+.integration-and-educational{
+  flex-direction: column;
+  
+}
 
+.testimonials{
+  justify-content: space-around;
+    margin: 0;
+}
 
+ .note-card{
+  width:90%;
+  border-radius: 20px;
+ }
+.back-div{
+  opacity: 0;
+}
+.container-box{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.read_more{
+  visibility: hidden;
+}
+.footer_vertical_line{
+  visibility: hidden;
+}
+.copyright{
+  margin-top:-9%;
+}
+footer{
+  background-color: #447094;
+}
+
+}
+@media only screen and (max-width: 576px) {
+ .play-img{
+  width: 100%;
+ 
+ }
+ .img-tick-div{
+  display: none;;
+ }
+.main-div{
+  margin-left: -90px;
+}
+.card-small-2 {
+  top: 50%;
+  left: 30%;
+}
+.card-small-3{
+  display: none;
+}
+.stats-img-div{
+  left:80%;
+}
+.title_hero{
+  font-size: 25px;
+  left:-30%;
+  text-align: center;
+}
 }

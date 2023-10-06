@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+     /* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+ .carousel-cell {
+  width: 66%;
+ 
+  margin-right: 10px;
+  
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  
+} 
+
+
+    </style>
+</head>
+<body>
+
+
+    <h1>Flickity - autoPlay</h1>
+
+    <!-- Flickity HTML init -->
+    <div class="carousel" data-flickity='{ "autoPlay": true }'>
+      <div class="carousel-cell">
+        <img src="assets/about1.png" alt="">
+      </div>
+      <div class="carousel-cell"><img src="assets/about1.png" alt=""></div>
+      <div class="carousel-cell"><img src="assets/about1.png" alt=""></div>
+      <div class="carousel-cell"><img src="assets/about1.png" alt=""></div>
+      <div class="carousel-cell"><img src="assets/about1.png" alt=""></div>
+    </div>
+
+    <!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
