@@ -233,35 +233,39 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
   }
   .about_images{
     margin: 20px 0;
+   overflow: visible;
    
-    overflow: none;
+  
   
   }
   .images{
-    width: 160%;
-    height:160%;
+    width: 90%;
+   
 
   }
   .about1{
-    margin-left:-45%;
+   
+    margin-left:-10%;
   }
   .about2{
-    margin-top: -22%;;
-    margin-left:-40%;
+   
+    margin-top: -10%;;
+    margin-left:-5%;
   }
 .first_text{
   
   position: relative;
-  top:-400px;
+  top:-220px;
+ 
 
 }
 .start_today{
   position: relative;
-  top:-400px;
+  top:-200px;
 }
 .about_info1{
   /* border: 2px solid red; */
@@ -487,6 +491,50 @@ footer{
 .title_hero{
   font-size: 25px;
   left:-30%;
-  text-align: center;
+  width: 90%;
+  
 }
+.paragraph_hero{
+  width:90%;
+  left:-30%;
+  
+}
+.buttons-div{
+  flex-direction: row;
+}
+.join{
+  margin-top: 15%;
+  margin-left:-17%;
+}
+.card1{
+ visibility: hidden;
+
+}
+.hamburger-div{
+ margin-top: 20px;
+ 
+}
+.close-line{
+  top:5px;
+  right:-3px;
+  background-color: black;
+  
+}
+.companies_heading{
+ margin-left:7%;
+ margin-top:1%;
+ width: 90%;
+}
+
+.feature_info{
+  margin-left:7%;
+
+}
+
+.features__img{
+  /* visibility: visible;
+  margin-right: 10px;
+   */
+}
+
 }

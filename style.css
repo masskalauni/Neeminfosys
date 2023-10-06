@@ -123,7 +123,7 @@ html {
   margin-top: 100px;
     font-weight: 700;
   font-size: 38px;
-  width: 80%;
+  width: 100%;
   margin-left:130px;
   
   }
@@ -134,7 +134,7 @@ html {
     line-height: 140%;
     color: #464646;
     margin-top: 30px;
-    width: 80%;
+    width: 100%;
     margin-left:130px;
     
   }
@@ -1132,6 +1132,7 @@ z-index:1;
   line-height: 25px;
   opacity: 1;
   font-size:15px;
+  width: fit-content;
 }
 .Gloria-Rose{
   position:absolute;
