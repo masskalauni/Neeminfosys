@@ -452,6 +452,8 @@ top:15%;
   }
   .ass-qui-test{
     width: 100%;
+    margin-left: -10%;;
+    
   }
  .management_tools{
   /* border: 2px solid red;; */
@@ -476,26 +478,70 @@ margin-left:12%;
 .management_para{
   width: 90%;
 }
+.video_and_one_one{
+  flex-direction: column-reverse;
+}
+
+.one-one-title{
+margin-left:30%;
+}
+.one-one-para{
+ margin-left:6%;
+  width: 80%;
+  
+}
 .see_more_feature_button{
  visibility: hidden;
 
 }
 .integration-and-educational{
   flex-direction: column;
+ 
   
 }
 
+.integrations_head{
+  margin-top:30%;
+  margin-left:20%;
+}
+.integration-para{
+ 
+  margin-left: -50%;
+  width:200%;
+ 
+}
+.int-title{
+  margin-left:10%;
+}
+
+
 .testimonials{
   justify-content: space-around;
-    margin: 0;
+
+
+}
+.testimonial-wrap{
+ 
+ flex-direction: column-reverse;
+}
+
+
+.smile-png{
+  margin-left: 10;
+  width: 90%;
+}
+.testimonial-info{
+  width:90%;
 }
 
  .note-card{
-  width:90%;
-  border-radius: 20px;
+  display: none;
  }
 .back-div{
   opacity: 0;
+}
+.next{
+  visibility: hidden;
 }
 .container-box{
   flex-direction: column;
@@ -663,6 +709,10 @@ left:-34%;
   
   
 }
+.Assesments_Quizzes_Testes_title{
+  margin-top: 10%;
+  margin-left:2px;
+}
 .management_tools{
   flex-flow: column;
   justify-content: center;
@@ -689,7 +739,26 @@ left:-34%;
   width: 90%;
   margin-top:-40%;
 }
-
+.one-one-title{
+  margin-left: 15%;
+}
+.one-one-para{
+  font-size: 20px;
+}
+.all--0ne{
+  margin-left:-20%;
+}
+.int-title{
+  width:250%;
+  /* border:2px solid red; */
+  margin-left:-60%;
+ 
+}
+.integration-para{
+  margin-top:80%;
+  font-size:20px;
+  margin-left:-25%;
+}
 
 
 
