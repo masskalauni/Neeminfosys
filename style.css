@@ -874,19 +874,19 @@ left:45%;
 .management_tools{
   display: flex;
   /* border:2px solid red; */
-  height:350px;
+  /* height:350px; */
 }
 .management{
+  /* border: 2px solid red; */
   position:relative;
   top:-200px;
-  left:5%;
 }
 .gradebook_png{
-  height: 120%;
+  
   width:100%;
   object-fit:contain;
   position:relative;
-  left:30%;
+  left:-30%;
 }
 .management_title{
   position:relative;
@@ -899,11 +899,15 @@ left:45%;
   position: relative;
   left:10%;
  
+ 
   font-weight: 400;
    font-size: 17px;
    line-height: 120%;
    top:43%;
    opacity: 70%;
+}
+.mngt-para{
+  width:40%;
 }
 .video_and_one_one{
   display: flex;
