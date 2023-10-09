@@ -180,8 +180,11 @@
         <div class="feature_icon">
           <img class="features__img" src="assets/schedule.png" alt="document" />
         </div>
-        <h2 class=" blue feature_title">Easy Scheduling & Attendance Tracking</h2><br>
-        <p class="feature_dis">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+        <div class="fit-div">
+          <h2 class=" blue feature_title">Easy Scheduling & Attendance Tracking</h2><br>
+          <p class="feature_dis">Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance</p>
+        </div>
+       
       </div>
       <div class="feature_card">
         <div class="feature_icon">
@@ -250,6 +253,7 @@
 
       <div class="about_info_part">
         
+        
         <div class="blue_rectangle">
           <img src="assets/blue-rectangle.png" alt="" class="blue_rectangle_png">
          </div>
@@ -259,8 +263,7 @@
          <div class="orange_Rectangle">
           <img src="assets/orange-rectangle.png" alt="" class="orange_rectangle_png">
          </div>
-         
-        <div class="main_image">
+         <div class="main_image">
           
           <img src="assets/about3.png" alt="about image" class="main_img_png">
 
@@ -268,6 +271,7 @@
 
      
         </div>
+        
         
         
       </div>
@@ -394,7 +398,7 @@
   </div>
   <div class="video_chat">
     <h1 class="feature_div_title one-one-title">
-      <span class="blue">One-one-One</span><br>
+      <span class="blue">One-one-One</span>
         <span class="orange"> Discussions</span>
      </h1>
      <p class="management_para one-one-discussion-para one-one-para">Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
@@ -546,39 +550,40 @@
 
  </div>
 
- <!-- footer section styling -->
- <div class="container">
-  <footer class="footer-section">
-    <div class="logo-and-vision">
-      <div class="footer-logo">
-      <a href="https://neeminfosys.com/"><img src="assets/neem_infosys.png" alt="" class="footer-image"></a>
-      </div>
-      <div class="footer-logo footer_vertical_line"></div>
-      <div class="footer-logo footer-logo-vision">
-        <h2 class="vision">Vision for Software</h2>
-      </div>
-      
-    </div>
-    <h2 class="footer-heading">Subscribe to get our Newsletter</h2>
-    <div class="button-and-input">
-      <div class="input">
-        <input type="email" class="email" placeholder="Your Email">
-      </div>
-      <div class="input">
-        <a href="#" class="subscribe email">Subscribe</a>
-      </div>
-    </div>
-    <div class="careers-privacy-terms">
-      <a href="#" class="careers">Careers </a>
-      <a href="#" class="careers">Privacy Policy </a>
-      <a href="#" class="careers">Terms & Conditions </a>
-    </div>
-    <div class="copyright">
-      <a href="#" class="copyright-link">© 2024 Neeminfosys Pvt. Ltd.</a>
-    </div>
-  </footer>
- </div>
+ <!-- footer Section -->
 
+ <footer class="footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer__first">
+        <div class="footer__img">
+          <img class="footer__logo-img" src="assets/neem_infosys.png" alt="logo">
+        </div>
+        <div class="logo-info">
+          <h3 class="logo-info-title"> Vision for Software</h3>
+        </div>
+      </div>
+
+      <div class="footer__second">
+        <h2 class="newsletter-title">Subscribe to get our Newsletter</h2>
+        <form class=".form">
+          <input class="input" type="text" placeholder="Your Email">
+          <button class="subscibe-btn">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer__third">
+        <a class="footer-link" href="#">Careers</a>
+        <a class="footer-link" href="#">Privacy Policy</a>
+        <a class="footer-link" href="#">Terms & Conditions</a>
+        <div class="footer-end">
+          <p class="footer-end-info">
+            &copy; 2022 Neeminfosys Pvt. Ltd.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
  <script src="script.js"></script>
 </body>
 

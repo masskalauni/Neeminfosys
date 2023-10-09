@@ -88,7 +88,8 @@
     background-color: #db2020;
     border-radius: 4px;
     position: absolute;
-    top: 50%;
+    top: 5%;
+    right:80px;
     transform-origin: center;
    
   }
@@ -150,9 +151,9 @@
   }
 
   .paragraph_hero {
-    width: 100%;
-    position: relative;
-    left:-14%;
+    width: 90%;
+   
+   margin-left:30px;
   }
   .buttons-div{
     /* border:2px solid red; */
@@ -201,7 +202,7 @@
   }
   .feature_card{
    width:90%;
-   height:90%;
+   /* height:90%; */
    
  
    margin-bottom: 70px;
@@ -213,15 +214,17 @@
     font-size: 20px;
   }
   .feature_icon {
-    
-    left: 35%;
-    
-    
+    top:-80px;
+    left: 40%;
+    width:20%; 
+    margin-left:-250px;
   }
+ 
   .features__img{
-    width: 10%;
+    width: 90%;
     height: auto;
-    visibility: hidden;
+   
+    
     margin-top: 200px;
     margin-left:260px;
     
@@ -240,7 +243,7 @@
   .about_images{
     margin: 20px 0;
    overflow: visible;
-   
+   width:90%;
   
   
   }
@@ -251,34 +254,37 @@
   }
   .about1{
    
-    margin-left:-10%;
+    margin-left:-11.2%;
   }
   .about2{
    
     margin-top: -10%;;
-    margin-left:-5%;
+    margin-left:-7%;
   }
 .first_text{
   
   position: relative;
-  top:-220px;
+  top:-400px;
+  
  
 
 }
 .start_today{
   position: relative;
-  top:-200px;
+  top:-400px;
 }
 .about_info1{
   /* border: 2px solid red; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   
   text-align: center;
 }
 .about_info_part{
- width: 90%;
+
+width:100%;
 
  
  
@@ -287,17 +293,18 @@
   font-size: 20px;
 }
 .about_info_title{
-  width: 90%;
-  display:inherit;
-  flex-wrap: nowrap;
+  width: 150%;
+  
+ margin-left:-100px;
  
   position:relative;
   left:5%;
 }
 .about_info_para{
-  width:110%;
+  width:150%;
   position:relative;
-  left:1%;
+  left:-25%;
+  top:-3%;
   font-size: 20px;
 }
 .about_info{
@@ -324,12 +331,10 @@
 .learn_more{
 position: relative;
 left:1%;
+top:5%;
 }
 .blue_rectangle {
-  width: 90%;
- position: relative;
- top:2vh;
- left:2vh;
+visibility: hidden;
 
 
 }
@@ -337,24 +342,24 @@ left:1%;
  visibility: hidden;
 }
 .main_image{
-width:90%;
+width:100%;
 position:relative;
 /* top:-1000px; */
 
-bottom:50vh;
+top:-165%;
 left:-5vh;
 
 
 
 }
 .main_img_png{ 
-  width: 90%;
+  width: 100%;
+ 
+ 
  
 }
 .play-image{
-  position:relative;
-  top:35vh;
-  left:30vh;
+  visibility: hidden;
 }
 .play_img_png{
   width: 90%;
@@ -384,8 +389,8 @@ left:-5vh;
   
 }
 .group_photo{
-  width: auto;
-  height:auto;
+width:auto;
+height:auto;
   /* margin-left: -5%;
   margin-top:20%; */
   position: relative;
@@ -417,7 +422,7 @@ top:15%;
   top:20%;
 }
 .icon_1{
-  width:90%;
+  width:50%;
 }
 .feature_text{
   
@@ -425,7 +430,10 @@ top:15%;
   
 }
 .feature_div_title{
-  margin-left: 10%;
+  margin-left: 15%;
+}
+.feature-div-title1{
+  width:90%;
 }
 .title_1{
   width: 90%;
@@ -472,7 +480,8 @@ flex-direction: column;
 }
 .management_title{
   margin-top:10%;
-margin-left:12%;
+margin-left:20%;
+width:90%;
 
 }
 .management_para{
@@ -483,7 +492,8 @@ margin-left:12%;
 }
 
 .one-one-title{
-margin-left:30%;
+margin-left:10%;
+width:90%;
 }
 .one-one-para{
  margin-left:6%;
@@ -611,11 +621,11 @@ footer{
 
 }
 .hamburger-div{
- margin-top: 20px;
+ margin-top: 10px;
  
 }
 .close-line{
-  top:5px;
+  top:-3px;
   right:-3px;
   background-color: black;
   
@@ -640,14 +650,14 @@ footer{
 }
 .about_info_title{
  
-  width: 140%;
+  width: 150%;
   text-align: center;
-  margin-left:-20%;
+  margin-left:-30%;
 }
 .about_info_para{
   width: 160%;
   
-  margin-left: -33%;
+  margin-left: -3%;
   margin-top: -20px;
 }
 .big-orange{
@@ -708,12 +718,19 @@ left:-34%;
   left:1%;
   top:-40px;
 }
+.feature-div-title1{
+  margin-left:10%;
+}
 .title_1{
   font-size: 20px;
   width: 90%;
   
   
 }
+.icon_1{
+  width:90%;
+}
+
 .Assesments_Quizzes_Testes_title{
   margin-top: 10%;
   margin-left:2px;
@@ -745,10 +762,14 @@ left:-34%;
   margin-top:-40%;
 }
 .one-one-title{
-  margin-left: 15%;
+  margin-left: -3%;
+  
+ 
 }
 .one-one-para{
   font-size: 20px;
+  margin-left:-13%;
+  
 }
 .all--0ne{
   margin-left:-20%;
@@ -798,6 +819,26 @@ left:-34%;
 .logo-and-vision{
   /* flex-direction: column; */
   width:90%;
+}
+.feature_icon {
+  top:-180px;
+  left: 40%;
+  width:30%; 
+  margin-left:-280px;
+}
+
+.features__img{
+  width: 90%;
+  height: auto;
+ 
+  
+  margin-top: 200px;
+  margin-left:260px;
+  
+}
+.feature_text{
+ 
+  
 }
 
 
