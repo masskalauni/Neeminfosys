@@ -152,7 +152,7 @@
 
   .paragraph_hero {
     width: 90%;
-   
+   line-height:26px;
    margin-left:30px;
   }
   .buttons-div{
@@ -306,6 +306,7 @@ width:100%;
   left:-25%;
   top:-3%;
   font-size: 20px;
+  line-height:26px;
 }
 .about_info{
   font-size: 20px;
@@ -437,6 +438,7 @@ top:15%;
 }
 .title_1{
   width: 90%;
+  line-height:26px;
   margin-left: -10%;
 }
 .think-image{
@@ -460,7 +462,9 @@ top:15%;
   }
   .ass-qui-test{
     width: 100%;
-    margin-left: -10%;;
+    margin-left: -10%;
+    line-height:26px;
+    font-size:20px;
     
   }
  .management_tools{
