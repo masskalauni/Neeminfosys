@@ -12,7 +12,7 @@
   }
   .logo
   {
-    margin: 15px 0;
+   left:5%;
   }
 
   .title_logo{
@@ -521,17 +521,22 @@ margin-left:30%;
 
 }
 .testimonial-wrap{
+ overflow: visible;
  
- flex-direction: column-reverse;
+ /* border:2px solid magenta; */
 }
 
 
 .smile-png{
   margin-left: 10;
   width: 90%;
+  /* border: 2px solid green; */
+
 }
 .testimonial-info{
   width:90%;
+ 
+  /* border:2px solid red; */
 }
 
  .note-card{
@@ -759,8 +764,41 @@ left:-34%;
   font-size:20px;
   margin-left:-25%;
 }
-
-
+.testimonial-wrap{
+  flex-direction: column;
+}
+.testimonial-title{
+  margin-left:25%;
+}
+.what-they-say{
+  margin-left: 25%;
+}
+.testimonial-para{
+  margin-left: 10%;
+}
+.smile-image{
+  margin-left:-9%;
+}
+.latest-news-para{
+  margin-right:12%;
+}
+.news-para{
+  
+  width:90%;
+  margin-left:-5%;
+  text-align: center;
+}
+.heading-new{
+  width:90%;
+ 
+}
+.title_h2{
+  margin-left:15px;
+}
+.logo-and-vision{
+  /* flex-direction: column; */
+  width:90%;
+}
 
 
 
